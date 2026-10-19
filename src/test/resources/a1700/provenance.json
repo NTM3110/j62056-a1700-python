@@ -1,0 +1,35 @@
+{
+  "sources": [
+    {
+      "source": "current value.txt",
+      "sha256": "7137c3347e1a6452d07f4ae8e5874065e282bff2021b8133faeeefc0fab0eeee",
+      "fixture": "current.tsv",
+      "rows": 20
+    },
+    {
+      "source": "instant paramter.txt",
+      "sha256": "44c7d22a7a8d8555220bb5bc77e39bdf17fca3e65766d33fc06edf33a9148d7c",
+      "fixture": "instantaneous.tsv",
+      "rows": 55
+    },
+    {
+      "source": "historical.txt",
+      "sha256": "75243fe0cb4431212fe2b38f0cb683d1f62ac893d877e491aedd2b91512ec71f",
+      "fixture": "historical.tsv",
+      "rows": 19
+    },
+    {
+      "source": "loadprofile.txt",
+      "sha256": "ac3e12584c586d463ce0d80242f44f45859de1d7cc6166b8e61743d545e25cc9",
+      "fixture": "profile-short.tsv",
+      "rows": 11
+    },
+    {
+      "source": "loadprofile-from19-06-2023.txt",
+      "sha256": "a6e824dd1360538b31d4e4a92f045599f7bb9bd8daf16bb710b0c318afc7cd1b",
+      "fixture": "profile-long.tsv",
+      "rows": 351
+    }
+  ],
+  "note": "Authentication intentionally omitted. Tests use a synthetic challenge/key; no real credentials in fixtures."
+}

@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+project_dir="$(cd "$script_dir/.." && pwd)"
+port="${1:-/dev/ttyUSB0}"
+log_file="${2:-$project_dir/current_java_original.log}"
+classes="$project_dir/build/a1700-classes"
+jrxtx="$project_dir/build/libs-all/jrxtx-1.0.1.jar"
+
+mkdir -p "$classes"
+find "$project_dir/src/main/java" -name '*.java' -print0 |
+    xargs -0 javac -cp "$jrxtx" -d "$classes"
+
+java -cp "$classes:$jrxtx" org.openmuc.j62056.app.Reader \
+    -p "$port" -cv -ak "$project_dir/.a1700_21000568.key" -ol "$log_file"

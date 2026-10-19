@@ -1,0 +1,26 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Gradle output and local state
+.gradle/
+build/
+run-scripts/.gradle/
+
+# Local meter credentials
+.a1700_*.key
+
+# Runtime captures and diagnostics
+captures/
+current_*.json
+current_*.jsonl
+current_*.log
+hs_err_pid*.log
+meter-readout-*.bin
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store

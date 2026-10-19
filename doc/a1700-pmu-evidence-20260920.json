@@ -1,0 +1,7277 @@
+{
+  "sources": [
+    {
+      "file": "current value.txt",
+      "bytes": 4003,
+      "sha256": "7137c3347e1a6452d07f4ae8e5874065e282bff2021b8133faeeefc0fab0eeee"
+    },
+    {
+      "file": "current-value -.png",
+      "bytes": 14162,
+      "sha256": "2aba98930483e4264c2fda4a275a77e5ebe8387dd6da191b8f42d8565cd7e3f6"
+    },
+    {
+      "file": "current-value-1.pdf",
+      "bytes": 191828,
+      "sha256": "fd2d852f6323b41d1c0e9eac713ac834aa35dd54bf2bef33d59cfcedd839d7bb"
+    },
+    {
+      "file": "current-value-2.png",
+      "bytes": 15312,
+      "sha256": "7f628d53ddf5f8b00f115b785cc9a5078c7672b2bf8981f4eeeafbadcafd336a"
+    },
+    {
+      "file": "historical.CSV",
+      "bytes": 4711,
+      "sha256": "a8f59894434aaa461bd26cbf4a728e33e75eed3c5aefd8e3b862fbbd3a8fdbc9"
+    },
+    {
+      "file": "historical.txt",
+      "bytes": 4069,
+      "sha256": "75243fe0cb4431212fe2b38f0cb683d1f62ac893d877e491aedd2b91512ec71f"
+    },
+    {
+      "file": "image load profile.png",
+      "bytes": 12352,
+      "sha256": "ab18d0611c0c82c063388ac2622a6d816db7e73e55d6706c24029299414f3b5e"
+    },
+    {
+      "file": "instant paramter.txt",
+      "bytes": 5980,
+      "sha256": "44c7d22a7a8d8555220bb5bc77e39bdf17fca3e65766d33fc06edf33a9148d7c"
+    },
+    {
+      "file": "instant.pdf",
+      "bytes": 183568,
+      "sha256": "3833b15e7656261b0d117d5e333ba0d1e369a26215776fd37ff0cbc95fa7922a"
+    },
+    {
+      "file": "loadprofile-19-06-23.CSV",
+      "bytes": 4061,
+      "sha256": "bd98d61127887ff8388d02c92331e3ce0b008ff773d32f6d8dd292800616cb33"
+    },
+    {
+      "file": "loadprofile-from19-06-2023.txt",
+      "bytes": 75558,
+      "sha256": "a6e824dd1360538b31d4e4a92f045599f7bb9bd8daf16bb710b0c318afc7cd1b"
+    },
+    {
+      "file": "loadprofile.txt",
+      "bytes": 2324,
+      "sha256": "ac3e12584c586d463ce0d80242f44f45859de1d7cc6166b8e61743d545e25cc9"
+    }
+  ],
+  "logs": {
+    "current value.txt": {
+      "requests": 20,
+      "r1": 20,
+      "w1": 0,
+      "unanswered": [],
+      "bad_bcc": []
+    },
+    "historical.txt": {
+      "requests": 19,
+      "r1": 19,
+      "w1": 0,
+      "unanswered": [],
+      "bad_bcc": []
+    },
+    "instant paramter.txt": {
+      "requests": 55,
+      "r1": 46,
+      "w1": 9,
+      "unanswered": [],
+      "bad_bcc": []
+    },
+    "loadprofile.txt": {
+      "requests": 11,
+      "r1": 10,
+      "w1": 1,
+      "unanswered": [],
+      "bad_bcc": []
+    },
+    "loadprofile-from19-06-2023.txt": {
+      "requests": 351,
+      "r1": 350,
+      "w1": 1,
+      "unanswered": [
+        "55015B"
+      ],
+      "bad_bcc": []
+    }
+  },
+  "current": {
+    "Cumulative totals": [
+      {
+        "index": 1,
+        "raw": "8866182700000000",
+        "value": "27186.688",
+        "expected": "27186.688",
+        "label": "Import Wh",
+        "match": true
+      },
+      {
+        "index": 2,
+        "raw": "9668486757030000",
+        "value": "35767486.896",
+        "expected": "35767486.896",
+        "label": "Export Wh",
+        "match": true
+      },
+      {
+        "index": 3,
+        "raw": "5694140000000000",
+        "value": "149.456",
+        "expected": "149.456",
+        "label": "Q1 varh",
+        "match": true
+      },
+      {
+        "index": 4,
+        "raw": "4818823974020000",
+        "value": "27439821.848",
+        "expected": "27439821.848",
+        "label": "Q2 varh",
+        "match": true
+      },
+      {
+        "index": 5,
+        "raw": "8471080000000000",
+        "value": "87.184",
+        "expected": "87.184",
+        "label": "Q3 varh",
+        "match": true
+      },
+      {
+        "index": 6,
+        "raw": "9646202100000000",
+        "value": "21204.696",
+        "expected": "21204.696",
+        "label": "Q4 varh",
+        "match": true
+      },
+      {
+        "index": 7,
+        "raw": "4491624852040000",
+        "value": "45248629.144",
+        "expected": "45248629.144",
+        "label": "VAh",
+        "match": true
+      },
+      {
+        "index": 8,
+        "raw": "0473341859020000",
+        "value": "25918347.304",
+        "expected": "25918347.304",
+        "label": "CD 1",
+        "match": true
+      },
+      {
+        "index": 9,
+        "raw": "9287276315000000",
+        "value": "1563278.792",
+        "expected": "1563278.792",
+        "label": "CD 2",
+        "match": true
+      },
+      {
+        "index": 10,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "CD 3",
+        "match": true
+      }
+    ],
+    "Rates": [
+      {
+        "index": 1,
+        "raw": "0068881300000000",
+        "value": "13886.8",
+        "expected": "13886.800",
+        "label": "Import Wh",
+        "match": true
+      },
+      {
+        "index": 2,
+        "raw": "6019960500000000",
+        "value": "5961.96",
+        "expected": "5961.960",
+        "label": "Import Wh",
+        "match": true
+      },
+      {
+        "index": 3,
+        "raw": "2879330700000000",
+        "value": "7337.928",
+        "expected": "7337.928",
+        "label": "Import Wh",
+        "match": true
+      },
+      {
+        "index": 4,
+        "raw": "6011265004020000",
+        "value": "20450261.16",
+        "expected": "20450261.160",
+        "label": "Export Wh",
+        "match": true
+      },
+      {
+        "index": 5,
+        "raw": "0443648064000000",
+        "value": "6480644.304",
+        "expected": "6480644.304",
+        "label": "Export Wh",
+        "match": true
+      },
+      {
+        "index": 6,
+        "raw": "0469403688000000",
+        "value": "8836406.904",
+        "expected": "8836406.904",
+        "label": "Export Wh",
+        "match": true
+      },
+      {
+        "index": 7,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 8,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 9,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 10,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 11,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 12,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 13,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 14,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 15,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 16,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 17,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 18,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 19,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 20,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 21,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 22,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 23,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 24,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 25,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 26,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 27,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 28,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 29,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 30,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 31,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      },
+      {
+        "index": 32,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "No Source",
+        "match": true
+      }
+    ],
+    "Cumulative maximum demands": [
+      {
+        "index": 1,
+        "raw": "480889000000000001",
+        "value": "890.848",
+        "expected": "890.848",
+        "label": "Import W",
+        "match": true
+      },
+      {
+        "index": 2,
+        "raw": "964070000000000001",
+        "value": "704.096",
+        "expected": "704.096",
+        "label": "Import W",
+        "match": true
+      },
+      {
+        "index": 3,
+        "raw": "968060000000000001",
+        "value": "608.096",
+        "expected": "608.096",
+        "label": "Import W",
+        "match": true
+      },
+      {
+        "index": 4,
+        "raw": "960064000000000001",
+        "value": "640.096",
+        "expected": "640.096",
+        "label": "Import W",
+        "match": true
+      },
+      {
+        "index": 5,
+        "raw": "286970950000000002",
+        "value": "95706.928",
+        "expected": "95706.928",
+        "label": "Export W",
+        "match": true
+      },
+      {
+        "index": 6,
+        "raw": "006025680000000002",
+        "value": "68256",
+        "expected": "68256.000",
+        "label": "Export W",
+        "match": true
+      },
+      {
+        "index": 7,
+        "raw": "522766650000000002",
+        "value": "65662.752",
+        "expected": "65662.752",
+        "label": "Export W",
+        "match": true
+      },
+      {
+        "index": 8,
+        "raw": "000080640000000002",
+        "value": "64800",
+        "expected": "64800.000",
+        "label": "Export W",
+        "match": true
+      }
+    ],
+    "Multi-utility registers": [
+      {
+        "index": 1,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "MU 1",
+        "match": true
+      },
+      {
+        "index": 2,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "MU 2",
+        "match": true
+      },
+      {
+        "index": 3,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "MU 3",
+        "match": true
+      },
+      {
+        "index": 4,
+        "raw": "0000000000000000",
+        "value": "0",
+        "expected": "0.000",
+        "label": "MU 4",
+        "match": true
+      }
+    ]
+  },
+  "historical": {
+    "length": 863,
+    "segments": [
+      {
+        "current_group": "507",
+        "offset": 0,
+        "length": 80,
+        "exact_match": true
+      },
+      {
+        "current_group": "508",
+        "offset": 80,
+        "length": 256,
+        "exact_match": true
+      },
+      {
+        "current_group": "516",
+        "offset": 336,
+        "length": 32,
+        "exact_match": true
+      },
+      {
+        "current_group": "509",
+        "offset": 368,
+        "length": 72,
+        "exact_match": true
+      },
+      {
+        "current_group": "510",
+        "offset": 440,
+        "length": 288,
+        "exact_match": true
+      },
+      {
+        "current_group": "511",
+        "offset": 728,
+        "length": 120,
+        "exact_match": true
+      }
+    ],
+    "tail": "1D00004EC267802CEB67813654A96A",
+    "reset_count_le16": 29,
+    "period_start_epoch_like": "2025-03-01T00:00:00+00:00",
+    "period_end_epoch_like": "2025-04-01T00:00:00+00:00",
+    "reason_raw": 129,
+    "reset_time_epoch_like": "2026-09-15T14:20:38+00:00"
+  },
+  "instant": [
+    {
+      "selector": "1A2A4A00",
+      "polls": [
+        "9A2A4A00",
+        "9AAA4A00",
+        "9AAACA00",
+        "9AAACA80"
+      ],
+      "slots_7_bytes": [
+        "00000000000000",
+        "00000000000000",
+        "00000000000000",
+        "00FF0000000000"
+      ],
+      "selector_low_bits_match": true,
+      "ready_only_on_final_poll": true
+    },
+    {
+      "selector": "1B2B4B00",
+      "polls": [
+        "9B2B4B00",
+        "9BAB4B00",
+        "9BABCB00",
+        "9BABCB80"
+      ],
+      "slots_7_bytes": [
+        "00000002224633",
+        "00000000000000",
+        "00000000000000",
+        "00FF0000000000"
+      ],
+      "selector_low_bits_match": true,
+      "ready_only_on_final_poll": true
+    },
+    {
+      "selector": "1C2C4C0C",
+      "polls": [
+        "9C2C4C0C",
+        "9CAC4C0C",
+        "9CACCC0C",
+        "9CACCC8C"
+      ],
+      "slots_7_bytes": [
+        "00000000000000",
+        "00000000000000",
+        "00000000000000",
+        "00000000000000"
+      ],
+      "selector_low_bits_match": true,
+      "ready_only_on_final_poll": true
+    },
+    {
+      "selector": "1D2D4D0D",
+      "polls": [
+        "9DAD4D0D",
+        "9DADCD0D",
+        "9DADCD8D"
+      ],
+      "slots_7_bytes": [
+        "00000000000000",
+        "00000000000000",
+        "00000000000000",
+        "00000000000000"
+      ],
+      "selector_low_bits_match": true,
+      "ready_only_on_final_poll": true
+    },
+    {
+      "selector": "1E2E4E0E",
+      "polls": [
+        "9E2E4E0E",
+        "9EAE4E0E",
+        "9EAECE0E",
+        "9EAECE8E"
+      ],
+      "slots_7_bytes": [
+        "00000000000000",
+        "00000000000000",
+        "00000000000000",
+        "00000000000000"
+      ],
+      "selector_low_bits_match": true,
+      "ready_only_on_final_poll": true
+    },
+    {
+      "selector": "13234303",
+      "polls": [
+        "93234303",
+        "93A34303",
+        "93A3C303",
+        "93A3C383"
+      ],
+      "slots_7_bytes": [
+        "00000000010000",
+        "00000000010000",
+        "00000000010000",
+        "00000000010000"
+      ],
+      "selector_low_bits_match": true,
+      "ready_only_on_final_poll": true
+    },
+    {
+      "selector": "18284800",
+      "polls": [
+        "98284800",
+        "98A84800",
+        "98A8C800",
+        "98A8C880"
+      ],
+      "slots_7_bytes": [
+        "00000000502492",
+        "00FF0000000000",
+        "00FF0000000000",
+        "00FF0000000000"
+      ],
+      "selector_low_bits_match": true,
+      "ready_only_on_final_poll": true
+    },
+    {
+      "selector": "19294900",
+      "polls": [
+        "99A94900",
+        "99A94900",
+        "99A9C900",
+        "99A9C980"
+      ],
+      "slots_7_bytes": [
+        "80000000000000",
+        "80000000000000",
+        "80000000000000",
+        "00FF0000000000"
+      ],
+      "selector_low_bits_match": true,
+      "ready_only_on_final_poll": true
+    },
+    {
+      "selector": "07000000",
+      "polls": [
+        "87000000",
+        "87800000",
+        "87808000",
+        "87808080"
+      ],
+      "slots_7_bytes": [
+        "00000000000000",
+        "00FF0000000000",
+        "00FF0000000000",
+        "00FF0000000000"
+      ],
+      "selector_low_bits_match": true,
+      "ready_only_on_final_poll": true
+    }
+  ],
+  "profile": {
+    "loadprofile.txt": {
+      "announced_blocks": 7,
+      "received_blocks": 7,
+      "bytes": 448,
+      "headers": [
+        {
+          "offset": 0,
+          "raw": "E400DCA96A030399",
+          "epoch_like": "2026-09-16T00:00:00+00:00"
+        }
+      ],
+      "first_record": "60000000000000000000000000",
+      "header_offsets_first": [
+        0
+      ]
+    },
+    "loadprofile-from19-06-2023.txt": {
+      "announced_blocks": 1349,
+      "received_blocks": 346,
+      "bytes": 22144,
+      "headers": [
+        {
+          "offset": 0,
+          "raw": "E4809A8F64030399",
+          "epoch_like": "2023-06-19T00:00:00+00:00"
+        },
+        {
+          "offset": 632,
+          "raw": "E400EC9064030399",
+          "epoch_like": "2023-06-20T00:00:00+00:00"
+        },
+        {
+          "offset": 1264,
+          "raw": "E4803D9264030399",
+          "epoch_like": "2023-06-21T00:00:00+00:00"
+        },
+        {
+          "offset": 1896,
+          "raw": "E4008F9364030399",
+          "epoch_like": "2023-06-22T00:00:00+00:00"
+        }
+      ],
+      "first_record": "40000000249602201602000000",
+      "header_offsets_first": [
+        0,
+        632,
+        1264,
+        1896,
+        2528,
+        3160,
+        3792,
+        4424
+      ],
+      "day_19_csv_matches": 48,
+      "day_19_csv_count": 48,
+      "day_19_statuses": [
+        64
+      ],
+      "day_19_scales": [
+        [
+          0,
+          2,
+          2,
+          0
+        ]
+      ]
+    }
+  },
+  "comparison_reference": {
+    "path": "/home/shou/Documents/ATEnergy/Meter/A1700_Response_Parsing_Guide.md",
+    "sha256": "04f14ef0cd9d9682bc4175cc6488b7972ac416a9714708c24f736ceb2f061313",
+    "type": "empirical analysis, not manufacturer specification"
+  },
+  "timestamp_semantics": "Epoch-like arithmetic matches displayed meter time; +00:00 in earlier fields is the calculation reference, not a verified timezone.",
+  "request_inventory": [
+    {
+      "op": "R1",
+      "register": "798001",
+      "argument": "10",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 9,
+          "response_line": 10,
+          "complete_request": true,
+          "response_bytes": 16
+        },
+        {
+          "file": "historical.txt",
+          "request_line": 9,
+          "response_line": 10,
+          "complete_request": true,
+          "response_bytes": 16
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 9,
+          "response_line": 10,
+          "complete_request": true,
+          "response_bytes": 16
+        },
+        {
+          "file": "loadprofile.txt",
+          "request_line": 9,
+          "response_line": 10,
+          "complete_request": true,
+          "response_bytes": 16
+        },
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 10,
+          "response_line": 11,
+          "complete_request": true,
+          "response_bytes": 16
+        }
+      ],
+      "family": "identity"
+    },
+    {
+      "op": "R1",
+      "register": "795001",
+      "argument": "08",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 11,
+          "response_line": 12,
+          "complete_request": true,
+          "response_bytes": 8
+        },
+        {
+          "file": "historical.txt",
+          "request_line": 11,
+          "response_line": 12,
+          "complete_request": true,
+          "response_bytes": 8
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 11,
+          "response_line": 12,
+          "complete_request": true,
+          "response_bytes": 8
+        },
+        {
+          "file": "loadprofile.txt",
+          "request_line": 11,
+          "response_line": 12,
+          "complete_request": true,
+          "response_bytes": 8
+        },
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 12,
+          "response_line": 13,
+          "complete_request": true,
+          "response_bytes": 8
+        }
+      ],
+      "family": "identity"
+    },
+    {
+      "op": "R1",
+      "register": "667001",
+      "argument": "20",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 15,
+          "response_line": 16,
+          "complete_request": true,
+          "response_bytes": 32
+        },
+        {
+          "file": "historical.txt",
+          "request_line": 15,
+          "response_line": 16,
+          "complete_request": true,
+          "response_bytes": 32
+        }
+      ],
+      "family": "source_configuration"
+    },
+    {
+      "op": "R1",
+      "register": "668001",
+      "argument": "08",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 17,
+          "response_line": 18,
+          "complete_request": true,
+          "response_bytes": 8
+        },
+        {
+          "file": "historical.txt",
+          "request_line": 17,
+          "response_line": 18,
+          "complete_request": true,
+          "response_bytes": 8
+        }
+      ],
+      "family": "source_configuration"
+    },
+    {
+      "op": "R1",
+      "register": "507001",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 19,
+          "response_line": 20,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "current_totals"
+    },
+    {
+      "op": "R1",
+      "register": "507002",
+      "argument": "10",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 21,
+          "response_line": 22,
+          "complete_request": true,
+          "response_bytes": 16
+        }
+      ],
+      "family": "current_totals"
+    },
+    {
+      "op": "R1",
+      "register": "508001",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 23,
+          "response_line": 24,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "current_rates"
+    },
+    {
+      "op": "R1",
+      "register": "508002",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 25,
+          "response_line": 26,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "current_rates"
+    },
+    {
+      "op": "R1",
+      "register": "508003",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 27,
+          "response_line": 28,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "current_rates"
+    },
+    {
+      "op": "R1",
+      "register": "508004",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 29,
+          "response_line": 30,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "current_rates"
+    },
+    {
+      "op": "R1",
+      "register": "516001",
+      "argument": "20",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 31,
+          "response_line": 32,
+          "complete_request": true,
+          "response_bytes": 32
+        }
+      ],
+      "family": "current_multi_utility"
+    },
+    {
+      "op": "R1",
+      "register": "510001",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 33,
+          "response_line": 34,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "current_md"
+    },
+    {
+      "op": "R1",
+      "register": "510002",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 35,
+          "response_line": 36,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "current_md"
+    },
+    {
+      "op": "R1",
+      "register": "510003",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 37,
+          "response_line": 38,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "current_md"
+    },
+    {
+      "op": "R1",
+      "register": "510004",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 39,
+          "response_line": 40,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "current_md"
+    },
+    {
+      "op": "R1",
+      "register": "510005",
+      "argument": "20",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 41,
+          "response_line": 42,
+          "complete_request": true,
+          "response_bytes": 32
+        }
+      ],
+      "family": "current_md"
+    },
+    {
+      "op": "R1",
+      "register": "509001",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 43,
+          "response_line": 44,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "current_cumulative_md"
+    },
+    {
+      "op": "R1",
+      "register": "509002",
+      "argument": "08",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 45,
+          "response_line": 46,
+          "complete_request": true,
+          "response_bytes": 8
+        }
+      ],
+      "family": "current_cumulative_md"
+    },
+    {
+      "op": "R1",
+      "register": "511001",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 47,
+          "response_line": 48,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "current_coincident"
+    },
+    {
+      "op": "R1",
+      "register": "511002",
+      "argument": "38",
+      "sources": [
+        {
+          "file": "current value.txt",
+          "request_line": 49,
+          "response_line": 50,
+          "complete_request": true,
+          "response_bytes": 56
+        }
+      ],
+      "family": "current_coincident"
+    },
+    {
+      "op": "R1",
+      "register": "543001",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 19,
+          "response_line": 20,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "543002",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 21,
+          "response_line": 22,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "543003",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 23,
+          "response_line": 24,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "543004",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 25,
+          "response_line": 26,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "543005",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 27,
+          "response_line": 28,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "543006",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 29,
+          "response_line": 30,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "543007",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 31,
+          "response_line": 32,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "543008",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 33,
+          "response_line": 34,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "543009",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 35,
+          "response_line": 36,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "54300A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 37,
+          "response_line": 38,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "54300B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 39,
+          "response_line": 40,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "54300C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 41,
+          "response_line": 42,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "54300D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 43,
+          "response_line": 44,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "54300E",
+      "argument": "1F",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 45,
+          "response_line": 46,
+          "complete_request": true,
+          "response_bytes": 31
+        }
+      ],
+      "family": "historical_values"
+    },
+    {
+      "op": "R1",
+      "register": "548001",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "historical.txt",
+          "request_line": 47,
+          "response_line": 48,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "historical_configuration"
+    },
+    {
+      "op": "W1",
+      "register": "605001",
+      "argument": "1A2A4A00",
+      "sources": [
+        {
+          "file": "instant paramter.txt",
+          "request_line": 15,
+          "response_line": 16,
+          "complete_request": true,
+          "response_bytes": null
+        }
+      ],
+      "family": "instant_selection_status"
+    },
+    {
+      "op": "R1",
+      "register": "605001",
+      "argument": "04",
+      "sources": [
+        {
+          "file": "instant paramter.txt",
+          "request_line": 17,
+          "response_line": 18,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 19,
+          "response_line": 20,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 21,
+          "response_line": 22,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 23,
+          "response_line": 24,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 29,
+          "response_line": 30,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 31,
+          "response_line": 32,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 33,
+          "response_line": 34,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 35,
+          "response_line": 36,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 41,
+          "response_line": 42,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 43,
+          "response_line": 44,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 45,
+          "response_line": 46,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 47,
+          "response_line": 48,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 53,
+          "response_line": 54,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 55,
+          "response_line": 56,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 57,
+          "response_line": 58,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 63,
+          "response_line": 64,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 65,
+          "response_line": 66,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 67,
+          "response_line": 68,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 69,
+          "response_line": 70,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 75,
+          "response_line": 76,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 77,
+          "response_line": 78,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 79,
+          "response_line": 80,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 81,
+          "response_line": 82,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 87,
+          "response_line": 88,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 89,
+          "response_line": 90,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 91,
+          "response_line": 92,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 93,
+          "response_line": 94,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 99,
+          "response_line": 100,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 101,
+          "response_line": 102,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 103,
+          "response_line": 104,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 105,
+          "response_line": 106,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 111,
+          "response_line": 112,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 113,
+          "response_line": 114,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 115,
+          "response_line": 116,
+          "complete_request": true,
+          "response_bytes": 4
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 117,
+          "response_line": 118,
+          "complete_request": true,
+          "response_bytes": 4
+        }
+      ],
+      "family": "instant_selection_status"
+    },
+    {
+      "op": "R1",
+      "register": "606001",
+      "argument": "1C",
+      "sources": [
+        {
+          "file": "instant paramter.txt",
+          "request_line": 25,
+          "response_line": 26,
+          "complete_request": true,
+          "response_bytes": 28
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 37,
+          "response_line": 38,
+          "complete_request": true,
+          "response_bytes": 28
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 49,
+          "response_line": 50,
+          "complete_request": true,
+          "response_bytes": 28
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 59,
+          "response_line": 60,
+          "complete_request": true,
+          "response_bytes": 28
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 71,
+          "response_line": 72,
+          "complete_request": true,
+          "response_bytes": 28
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 83,
+          "response_line": 84,
+          "complete_request": true,
+          "response_bytes": 28
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 95,
+          "response_line": 96,
+          "complete_request": true,
+          "response_bytes": 28
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 107,
+          "response_line": 108,
+          "complete_request": true,
+          "response_bytes": 28
+        },
+        {
+          "file": "instant paramter.txt",
+          "request_line": 119,
+          "response_line": 120,
+          "complete_request": true,
+          "response_bytes": 28
+        }
+      ],
+      "family": "instant_values"
+    },
+    {
+      "op": "W1",
+      "register": "605001",
+      "argument": "1B2B4B00",
+      "sources": [
+        {
+          "file": "instant paramter.txt",
+          "request_line": 27,
+          "response_line": 28,
+          "complete_request": true,
+          "response_bytes": null
+        }
+      ],
+      "family": "instant_selection_status"
+    },
+    {
+      "op": "W1",
+      "register": "605001",
+      "argument": "1C2C4C0C",
+      "sources": [
+        {
+          "file": "instant paramter.txt",
+          "request_line": 39,
+          "response_line": 40,
+          "complete_request": true,
+          "response_bytes": null
+        }
+      ],
+      "family": "instant_selection_status"
+    },
+    {
+      "op": "W1",
+      "register": "605001",
+      "argument": "1D2D4D0D",
+      "sources": [
+        {
+          "file": "instant paramter.txt",
+          "request_line": 51,
+          "response_line": 52,
+          "complete_request": true,
+          "response_bytes": null
+        }
+      ],
+      "family": "instant_selection_status"
+    },
+    {
+      "op": "W1",
+      "register": "605001",
+      "argument": "1E2E4E0E",
+      "sources": [
+        {
+          "file": "instant paramter.txt",
+          "request_line": 61,
+          "response_line": 62,
+          "complete_request": true,
+          "response_bytes": null
+        }
+      ],
+      "family": "instant_selection_status"
+    },
+    {
+      "op": "W1",
+      "register": "605001",
+      "argument": "13234303",
+      "sources": [
+        {
+          "file": "instant paramter.txt",
+          "request_line": 73,
+          "response_line": 74,
+          "complete_request": true,
+          "response_bytes": null
+        }
+      ],
+      "family": "instant_selection_status"
+    },
+    {
+      "op": "W1",
+      "register": "605001",
+      "argument": "18284800",
+      "sources": [
+        {
+          "file": "instant paramter.txt",
+          "request_line": 85,
+          "response_line": 86,
+          "complete_request": true,
+          "response_bytes": null
+        }
+      ],
+      "family": "instant_selection_status"
+    },
+    {
+      "op": "W1",
+      "register": "605001",
+      "argument": "19294900",
+      "sources": [
+        {
+          "file": "instant paramter.txt",
+          "request_line": 97,
+          "response_line": 98,
+          "complete_request": true,
+          "response_bytes": null
+        }
+      ],
+      "family": "instant_selection_status"
+    },
+    {
+      "op": "W1",
+      "register": "605001",
+      "argument": "07000000",
+      "sources": [
+        {
+          "file": "instant paramter.txt",
+          "request_line": 109,
+          "response_line": 110,
+          "complete_request": true,
+          "response_bytes": null
+        }
+      ],
+      "family": "instant_selection_status"
+    },
+    {
+      "op": "W1",
+      "register": "551001",
+      "argument": "0100",
+      "sources": [
+        {
+          "file": "loadprofile.txt",
+          "request_line": 15,
+          "response_line": 16,
+          "complete_request": true,
+          "response_bytes": null
+        }
+      ],
+      "family": "profile_selection_count"
+    },
+    {
+      "op": "R1",
+      "register": "551001",
+      "argument": "02",
+      "sources": [
+        {
+          "file": "loadprofile.txt",
+          "request_line": 17,
+          "response_line": 18,
+          "complete_request": true,
+          "response_bytes": 2
+        },
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 18,
+          "response_line": 19,
+          "complete_request": true,
+          "response_bytes": 2
+        }
+      ],
+      "family": "profile_selection_count"
+    },
+    {
+      "op": "R1",
+      "register": "550001",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile.txt",
+          "request_line": 19,
+          "response_line": 20,
+          "complete_request": true,
+          "response_bytes": 64
+        },
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 20,
+          "response_line": 21,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550002",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile.txt",
+          "request_line": 21,
+          "response_line": 22,
+          "complete_request": true,
+          "response_bytes": 64
+        },
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 22,
+          "response_line": 23,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550003",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile.txt",
+          "request_line": 23,
+          "response_line": 24,
+          "complete_request": true,
+          "response_bytes": 64
+        },
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 24,
+          "response_line": 25,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550004",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile.txt",
+          "request_line": 25,
+          "response_line": 26,
+          "complete_request": true,
+          "response_bytes": 64
+        },
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 26,
+          "response_line": 27,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550005",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile.txt",
+          "request_line": 27,
+          "response_line": 28,
+          "complete_request": true,
+          "response_bytes": 64
+        },
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 28,
+          "response_line": 29,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550006",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile.txt",
+          "request_line": 29,
+          "response_line": 30,
+          "complete_request": true,
+          "response_bytes": 64
+        },
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 30,
+          "response_line": 31,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550007",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile.txt",
+          "request_line": 31,
+          "response_line": 32,
+          "complete_request": true,
+          "response_bytes": 64
+        },
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 32,
+          "response_line": 33,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "W1",
+      "register": "551001",
+      "argument": "FFFF",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 16,
+          "response_line": 17,
+          "complete_request": true,
+          "response_bytes": null
+        }
+      ],
+      "family": "profile_selection_count"
+    },
+    {
+      "op": "R1",
+      "register": "550008",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 34,
+          "response_line": 35,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550009",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 36,
+          "response_line": 37,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55000A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 38,
+          "response_line": 39,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55000B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 40,
+          "response_line": 41,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55000C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 42,
+          "response_line": 43,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55000D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 44,
+          "response_line": 45,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55000E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 46,
+          "response_line": 47,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55000F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 48,
+          "response_line": 49,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550010",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 50,
+          "response_line": 51,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550011",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 52,
+          "response_line": 53,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550012",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 54,
+          "response_line": 55,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550013",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 56,
+          "response_line": 57,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550014",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 58,
+          "response_line": 59,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550015",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 60,
+          "response_line": 61,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550016",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 62,
+          "response_line": 63,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550017",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 64,
+          "response_line": 65,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550018",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 66,
+          "response_line": 67,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550019",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 68,
+          "response_line": 69,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55001A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 70,
+          "response_line": 71,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55001B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 72,
+          "response_line": 73,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55001C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 74,
+          "response_line": 75,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55001D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 76,
+          "response_line": 77,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55001E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 78,
+          "response_line": 79,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55001F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 80,
+          "response_line": 81,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550020",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 82,
+          "response_line": 83,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550021",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 84,
+          "response_line": 85,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550022",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 86,
+          "response_line": 87,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550023",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 88,
+          "response_line": 89,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550024",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 90,
+          "response_line": 91,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550025",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 92,
+          "response_line": 93,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550026",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 94,
+          "response_line": 95,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550027",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 96,
+          "response_line": 97,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550028",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 98,
+          "response_line": 99,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550029",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 100,
+          "response_line": 101,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55002A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 102,
+          "response_line": 103,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55002B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 104,
+          "response_line": 105,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55002C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 106,
+          "response_line": 107,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55002D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 108,
+          "response_line": 109,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55002E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 110,
+          "response_line": 111,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55002F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 112,
+          "response_line": 113,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550030",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 114,
+          "response_line": 115,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550031",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 116,
+          "response_line": 117,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550032",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 118,
+          "response_line": 119,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550033",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 120,
+          "response_line": 121,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550034",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 122,
+          "response_line": 123,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550035",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 124,
+          "response_line": 125,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550036",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 126,
+          "response_line": 127,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550037",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 128,
+          "response_line": 129,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550038",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 130,
+          "response_line": 131,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550039",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 132,
+          "response_line": 133,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55003A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 134,
+          "response_line": 135,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55003B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 136,
+          "response_line": 137,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55003C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 138,
+          "response_line": 139,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55003D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 140,
+          "response_line": 141,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55003E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 142,
+          "response_line": 143,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55003F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 144,
+          "response_line": 145,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550040",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 146,
+          "response_line": 147,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550041",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 148,
+          "response_line": 149,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550042",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 150,
+          "response_line": 151,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550043",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 152,
+          "response_line": 153,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550044",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 154,
+          "response_line": 155,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550045",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 156,
+          "response_line": 157,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550046",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 158,
+          "response_line": 159,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550047",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 160,
+          "response_line": 161,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550048",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 162,
+          "response_line": 163,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550049",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 164,
+          "response_line": 165,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55004A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 166,
+          "response_line": 167,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55004B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 168,
+          "response_line": 169,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55004C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 170,
+          "response_line": 171,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55004D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 172,
+          "response_line": 173,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55004E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 174,
+          "response_line": 175,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55004F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 176,
+          "response_line": 177,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550050",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 178,
+          "response_line": 179,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550051",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 180,
+          "response_line": 181,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550052",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 182,
+          "response_line": 183,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550053",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 184,
+          "response_line": 185,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550054",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 186,
+          "response_line": 187,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550055",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 188,
+          "response_line": 189,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550056",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 190,
+          "response_line": 191,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550057",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 192,
+          "response_line": 193,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550058",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 194,
+          "response_line": 195,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550059",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 196,
+          "response_line": 197,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55005A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 198,
+          "response_line": 199,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55005B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 200,
+          "response_line": 201,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55005C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 202,
+          "response_line": 203,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55005D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 204,
+          "response_line": 205,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55005E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 206,
+          "response_line": 207,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55005F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 208,
+          "response_line": 209,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550060",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 210,
+          "response_line": 211,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550061",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 212,
+          "response_line": 213,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550062",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 214,
+          "response_line": 215,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550063",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 216,
+          "response_line": 217,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550064",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 218,
+          "response_line": 219,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550065",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 220,
+          "response_line": 221,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550066",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 222,
+          "response_line": 223,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550067",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 224,
+          "response_line": 225,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550068",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 226,
+          "response_line": 227,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550069",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 228,
+          "response_line": 229,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55006A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 230,
+          "response_line": 231,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55006B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 232,
+          "response_line": 233,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55006C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 234,
+          "response_line": 235,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55006D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 236,
+          "response_line": 237,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55006E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 238,
+          "response_line": 239,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55006F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 240,
+          "response_line": 241,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550070",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 242,
+          "response_line": 243,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550071",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 244,
+          "response_line": 245,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550072",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 246,
+          "response_line": 247,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550073",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 248,
+          "response_line": 249,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550074",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 250,
+          "response_line": 251,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550075",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 252,
+          "response_line": 253,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550076",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 254,
+          "response_line": 255,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550077",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 256,
+          "response_line": 257,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550078",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 258,
+          "response_line": 259,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550079",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 260,
+          "response_line": 261,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55007A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 262,
+          "response_line": 263,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55007B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 264,
+          "response_line": 265,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55007C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 266,
+          "response_line": 267,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55007D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 268,
+          "response_line": 269,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55007E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 270,
+          "response_line": 271,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55007F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 272,
+          "response_line": 273,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550080",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 274,
+          "response_line": 275,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550081",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 276,
+          "response_line": 277,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550082",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 278,
+          "response_line": 279,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550083",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 280,
+          "response_line": 281,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550084",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 282,
+          "response_line": 283,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550085",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 284,
+          "response_line": 285,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550086",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 286,
+          "response_line": 287,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550087",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 288,
+          "response_line": 289,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550088",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 290,
+          "response_line": 291,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550089",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 292,
+          "response_line": 293,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55008A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 294,
+          "response_line": 295,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55008B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 296,
+          "response_line": 297,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55008C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 298,
+          "response_line": 299,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55008D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 300,
+          "response_line": 301,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55008E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 302,
+          "response_line": 303,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55008F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 304,
+          "response_line": 305,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550090",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 306,
+          "response_line": 307,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550091",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 308,
+          "response_line": 309,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550092",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 310,
+          "response_line": 311,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550093",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 312,
+          "response_line": 313,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550094",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 314,
+          "response_line": 315,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550095",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 316,
+          "response_line": 317,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550096",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 318,
+          "response_line": 319,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550097",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 320,
+          "response_line": 321,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550098",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 322,
+          "response_line": 323,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550099",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 324,
+          "response_line": 325,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55009A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 326,
+          "response_line": 327,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55009B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 328,
+          "response_line": 329,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55009C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 330,
+          "response_line": 331,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55009D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 332,
+          "response_line": 333,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55009E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 334,
+          "response_line": 335,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55009F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 336,
+          "response_line": 337,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500A0",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 338,
+          "response_line": 339,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500A1",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 340,
+          "response_line": 341,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500A2",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 342,
+          "response_line": 343,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500A3",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 344,
+          "response_line": 345,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500A4",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 346,
+          "response_line": 347,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500A5",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 348,
+          "response_line": 349,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500A6",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 350,
+          "response_line": 351,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500A7",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 352,
+          "response_line": 353,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500A8",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 354,
+          "response_line": 355,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500A9",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 356,
+          "response_line": 357,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500AA",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 358,
+          "response_line": 359,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500AB",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 360,
+          "response_line": 361,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500AC",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 362,
+          "response_line": 363,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500AD",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 364,
+          "response_line": 365,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500AE",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 366,
+          "response_line": 367,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500AF",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 368,
+          "response_line": 369,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500B0",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 370,
+          "response_line": 371,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500B1",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 372,
+          "response_line": 373,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500B2",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 374,
+          "response_line": 375,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500B3",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 376,
+          "response_line": 377,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500B4",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 378,
+          "response_line": 379,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500B5",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 380,
+          "response_line": 381,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500B6",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 382,
+          "response_line": 383,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500B7",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 384,
+          "response_line": 385,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500B8",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 386,
+          "response_line": 387,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500B9",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 388,
+          "response_line": 389,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500BA",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 390,
+          "response_line": 391,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500BB",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 392,
+          "response_line": 393,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500BC",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 394,
+          "response_line": 395,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500BD",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 396,
+          "response_line": 397,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500BE",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 398,
+          "response_line": 399,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500BF",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 400,
+          "response_line": 401,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500C0",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 402,
+          "response_line": 403,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500C1",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 404,
+          "response_line": 405,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500C2",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 406,
+          "response_line": 407,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500C3",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 408,
+          "response_line": 409,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500C4",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 410,
+          "response_line": 411,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500C5",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 412,
+          "response_line": 413,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500C6",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 414,
+          "response_line": 415,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500C7",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 416,
+          "response_line": 417,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500C8",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 418,
+          "response_line": 419,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500C9",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 420,
+          "response_line": 421,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500CA",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 422,
+          "response_line": 423,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500CB",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 424,
+          "response_line": 425,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500CC",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 426,
+          "response_line": 427,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500CD",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 428,
+          "response_line": 429,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500CE",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 430,
+          "response_line": 431,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500CF",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 432,
+          "response_line": 433,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500D0",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 434,
+          "response_line": 435,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500D1",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 436,
+          "response_line": 437,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500D2",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 438,
+          "response_line": 439,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500D3",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 440,
+          "response_line": 441,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500D4",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 442,
+          "response_line": 443,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500D5",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 444,
+          "response_line": 445,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500D6",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 446,
+          "response_line": 447,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500D7",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 448,
+          "response_line": 449,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500D8",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 450,
+          "response_line": 451,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500D9",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 452,
+          "response_line": 453,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500DA",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 454,
+          "response_line": 455,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500DB",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 456,
+          "response_line": 457,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500DC",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 458,
+          "response_line": 459,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500DD",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 460,
+          "response_line": 461,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500DE",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 462,
+          "response_line": 463,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500DF",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 464,
+          "response_line": 465,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500E0",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 466,
+          "response_line": 467,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500E1",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 468,
+          "response_line": 469,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500E2",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 470,
+          "response_line": 471,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500E3",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 472,
+          "response_line": 473,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500E4",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 474,
+          "response_line": 475,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500E5",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 476,
+          "response_line": 477,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500E6",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 478,
+          "response_line": 479,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500E7",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 480,
+          "response_line": 481,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500E8",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 482,
+          "response_line": 483,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500E9",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 484,
+          "response_line": 485,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500EA",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 486,
+          "response_line": 487,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500EB",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 488,
+          "response_line": 489,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500EC",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 490,
+          "response_line": 491,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500ED",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 492,
+          "response_line": 493,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500EE",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 494,
+          "response_line": 495,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500EF",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 496,
+          "response_line": 497,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500F0",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 498,
+          "response_line": 499,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500F1",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 500,
+          "response_line": 501,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500F2",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 502,
+          "response_line": 503,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500F3",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 504,
+          "response_line": 505,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500F4",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 506,
+          "response_line": 507,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500F5",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 508,
+          "response_line": 509,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500F6",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 510,
+          "response_line": 511,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500F7",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 512,
+          "response_line": 513,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500F8",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 514,
+          "response_line": 515,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500F9",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 516,
+          "response_line": 517,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500FA",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 518,
+          "response_line": 519,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500FB",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 520,
+          "response_line": 521,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500FC",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 522,
+          "response_line": 523,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500FD",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 524,
+          "response_line": 525,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500FE",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 526,
+          "response_line": 527,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "5500FF",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 528,
+          "response_line": 529,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550100",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 530,
+          "response_line": 531,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550101",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 532,
+          "response_line": 533,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550102",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 534,
+          "response_line": 535,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550103",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 536,
+          "response_line": 537,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550104",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 538,
+          "response_line": 539,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550105",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 540,
+          "response_line": 541,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550106",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 542,
+          "response_line": 543,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550107",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 544,
+          "response_line": 545,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550108",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 546,
+          "response_line": 547,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550109",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 548,
+          "response_line": 549,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55010A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 550,
+          "response_line": 551,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55010B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 552,
+          "response_line": 553,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55010C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 554,
+          "response_line": 555,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55010D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 556,
+          "response_line": 557,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55010E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 558,
+          "response_line": 559,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55010F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 560,
+          "response_line": 561,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550110",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 562,
+          "response_line": 563,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550111",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 564,
+          "response_line": 565,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550112",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 566,
+          "response_line": 567,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550113",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 568,
+          "response_line": 569,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550114",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 570,
+          "response_line": 571,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550115",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 572,
+          "response_line": 573,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550116",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 574,
+          "response_line": 575,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550117",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 576,
+          "response_line": 577,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550118",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 578,
+          "response_line": 579,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550119",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 580,
+          "response_line": 581,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55011A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 582,
+          "response_line": 583,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55011B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 584,
+          "response_line": 585,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55011C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 586,
+          "response_line": 587,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55011D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 588,
+          "response_line": 589,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55011E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 590,
+          "response_line": 591,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55011F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 592,
+          "response_line": 593,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550120",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 594,
+          "response_line": 595,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550121",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 596,
+          "response_line": 597,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550122",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 598,
+          "response_line": 599,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550123",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 600,
+          "response_line": 601,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550124",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 602,
+          "response_line": 603,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550125",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 604,
+          "response_line": 605,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550126",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 606,
+          "response_line": 607,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550127",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 608,
+          "response_line": 609,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550128",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 610,
+          "response_line": 611,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550129",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 612,
+          "response_line": 613,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55012A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 614,
+          "response_line": 615,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55012B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 616,
+          "response_line": 617,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55012C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 618,
+          "response_line": 619,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55012D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 620,
+          "response_line": 621,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55012E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 622,
+          "response_line": 623,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55012F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 624,
+          "response_line": 625,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550130",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 626,
+          "response_line": 627,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550131",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 628,
+          "response_line": 629,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550132",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 630,
+          "response_line": 631,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550133",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 632,
+          "response_line": 633,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550134",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 634,
+          "response_line": 635,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550135",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 636,
+          "response_line": 637,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550136",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 638,
+          "response_line": 639,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550137",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 640,
+          "response_line": 641,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550138",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 642,
+          "response_line": 643,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550139",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 644,
+          "response_line": 645,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55013A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 646,
+          "response_line": 647,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55013B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 648,
+          "response_line": 649,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55013C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 650,
+          "response_line": 651,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55013D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 652,
+          "response_line": 653,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55013E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 654,
+          "response_line": 655,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55013F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 656,
+          "response_line": 657,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550140",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 658,
+          "response_line": 659,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550141",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 660,
+          "response_line": 661,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550142",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 662,
+          "response_line": 663,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550143",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 664,
+          "response_line": 665,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550144",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 666,
+          "response_line": 667,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550145",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 668,
+          "response_line": 669,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550146",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 670,
+          "response_line": 671,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550147",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 672,
+          "response_line": 673,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550148",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 674,
+          "response_line": 675,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550149",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 676,
+          "response_line": 677,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55014A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 678,
+          "response_line": 679,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55014B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 680,
+          "response_line": 681,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55014C",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 682,
+          "response_line": 683,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55014D",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 684,
+          "response_line": 685,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55014E",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 686,
+          "response_line": 687,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55014F",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 688,
+          "response_line": 689,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550150",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 690,
+          "response_line": 691,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550151",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 692,
+          "response_line": 693,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550152",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 694,
+          "response_line": 695,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550153",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 696,
+          "response_line": 697,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550154",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 698,
+          "response_line": 699,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550155",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 700,
+          "response_line": 701,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550156",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 702,
+          "response_line": 703,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550157",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 704,
+          "response_line": 705,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550158",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 706,
+          "response_line": 707,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "550159",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 708,
+          "response_line": 709,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55015A",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 710,
+          "response_line": 711,
+          "complete_request": true,
+          "response_bytes": 64
+        }
+      ],
+      "family": "profile_blocks"
+    },
+    {
+      "op": "R1",
+      "register": "55015B",
+      "argument": "40",
+      "sources": [
+        {
+          "file": "loadprofile-from19-06-2023.txt",
+          "request_line": 712,
+          "response_line": null,
+          "complete_request": false,
+          "response_bytes": null
+        }
+      ],
+      "family": "profile_blocks"
+    }
+  ],
+  "reference_checks": {
+    "loadprofile.txt": {
+      "contiguous_complete_blocks": 7,
+      "ordinary_prefix_records": 33,
+      "headers_in_prefix": 1,
+      "stop_offset": 437,
+      "stop_marker": "FF",
+      "remaining_bytes": 11,
+      "last_prefix_end": "2026-09-16T16:30:00",
+      "padding_bytes": 11,
+      "all_numeric_fields_zero": true
+    },
+    "loadprofile-from19-06-2023.txt": {
+      "contiguous_complete_blocks": 346,
+      "ordinary_prefix_records": 1265,
+      "headers_in_prefix": 27,
+      "stop_offset": 16661,
+      "stop_marker": "E6",
+      "remaining_bytes": 5483,
+      "last_prefix_end": "2023-07-15T08:30:00",
+      "first_events": [
+        {
+          "offset": 16661,
+          "raw": "E6625BB264",
+          "timestamp_candidate": "2023-07-15T08:40:02"
+        },
+        {
+          "offset": 16666,
+          "raw": "E5695BB264",
+          "timestamp_candidate": "2023-07-15T08:40:09"
+        },
+        {
+          "offset": 16671,
+          "raw": "E6695BB264",
+          "timestamp_candidate": "2023-07-15T08:40:09"
+        },
+        {
+          "offset": 16676,
+          "raw": "E5715BB264",
+          "timestamp_candidate": "2023-07-15T08:40:17"
+        }
+      ],
+      "bytes_after_events_for_research": "40000000220802201602000000E6BC66B26440000000211202211202000000E57682B264400000001920011920010000",
+      "reference_numeric_matches": 192,
+      "nonzero_matches": 96,
+      "start_time_matches": 48,
+      "end_time_matches": 47,
+      "flag_matches": 48,
+      "source_time_anomalies": [
+        {
+          "csv_row": 51,
+          "source_end": "12:00:00 PM",
+          "expected_end_from_cadence": "2023-06-20T00:00:00"
+        }
+      ],
+      "derived_export_kwh": "60.4800"
+    },
+    "current_pdf": {
+      "printed_measurements": 93,
+      "numeric_matches_in_report_order": 93,
+      "verified_family_values": 50,
+      "zero_only_multiutility": 4,
+      "zero_only_md_and_coincident": 39,
+      "nonzero_matches": 23,
+      "note": "Zero-only matches do not validate their internal layout; MD/coincident use displayed zeros, not an established field decoder."
+    },
+    "framing": {
+      "complete_r1_w1_requests_with_valid_bcc": 455,
+      "complete_data_responses_with_valid_bcc": 444,
+      "r1_response_length_matches": 444,
+      "excluded": "Sign-on, ACK-only responses, P0/P2 and B0; one truncated request has no complete BCC."
+    }
+  },
+  "request_inventory_summary": {
+    "unique_request_forms": 396,
+    "families": {
+      "identity": 2,
+      "source_configuration": 2,
+      "current_totals": 2,
+      "current_rates": 4,
+      "current_multi_utility": 1,
+      "current_md": 5,
+      "current_cumulative_md": 2,
+      "current_coincident": 2,
+      "historical_values": 14,
+      "historical_configuration": 1,
+      "instant_selection_status": 10,
+      "instant_values": 1,
+      "profile_selection_count": 3,
+      "profile_blocks": 347
+    },
+    "unassigned": 0,
+    "note": "Includes the final incomplete request 55015B(40). R1/W1 only; authentication frames intentionally excluded."
+  }
+}

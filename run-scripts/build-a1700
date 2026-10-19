@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+project_dir="$(cd "$script_dir/.." && pwd)"
+classes="$project_dir/build/a1700-classes"
+jrxtx="$project_dir/build/libs-all/jrxtx-1.0.1.jar"
+if [[ ! -f "$jrxtx" ]]; then
+  echo "Missing dependency: $jrxtx" >&2
+  exit 1
+fi
+mkdir -p "$classes"
+find "$project_dir/src/main/java" -name '*.java' -print0 |
+  xargs -0 javac --release 8 -Xlint:-options -cp "$jrxtx" -d "$classes"

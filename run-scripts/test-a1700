@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+project_dir="$(cd "$script_dir/.." && pwd)"
+"$script_dir/build-a1700"
+cd "$project_dir"
+mkdir -p build/a1700-test-classes
+javac --release 8 -Xlint:-options -cp build/a1700-classes -d build/a1700-test-classes \
+  src/test/java/org/openmuc/j62056/a1700/A1700DriverTest.java
+java -ea -cp build/a1700-classes:build/a1700-test-classes org.openmuc.j62056.a1700.A1700DriverTest

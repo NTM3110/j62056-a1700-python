@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+project_dir="$(cd "$script_dir/.." && pwd)"
+"$script_dir/build-a1700"
+cd "$project_dir"
+exec java -cp "$project_dir/build/a1700-classes:$project_dir/build/libs-all/jrxtx-1.0.1.jar" \
+  org.openmuc.j62056.app.A1700Reader "$@"

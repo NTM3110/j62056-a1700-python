@@ -1,0 +1,146 @@
+CSV-1.00, Elster Metering Systems Power Master Unit
+From unit, --------21000568 9/18/2026 9:27:39 AM
+
+Historical Data
+
+Historical data set: 1
+
+Cumulative totals
+
+,Value,Unit
+,"0,000,000,027,186.688","Import Wh",,
+,"0,000,035,767,486.896","Export Wh",,
+,"0,000,000,000,149.456","Q1 varh",,
+,"0,000,027,439,821.848","Q2 varh",,
+,"0,000,000,000,087.184","Q3 varh",,
+,"0,000,000,021,204.696","Q4 varh",,
+,"0,000,045,248,629.144","VAh",,
+,"0,000,025,918,347.304","CD 1",,
+,"0,000,001,563,278.792","CD 2",,
+,"0,000,000,000,000.000","CD 3",,
+
+Multi-utility registers
+
+,Value,Unit
+,"0,000,000,000,000.000","MU 1",,
+,"0,000,000,000,000.000","MU 2",,
+,"0,000,000,000,000.000","MU 3",,
+,"0,000,000,000,000.000","MU 4",,
+
+Rates
+
+Register,Value,Unit
+1,"0,000,000,013,886.800","Import Wh",,
+2,"0,000,000,005,961.960","Import Wh",,
+3,"0,000,000,007,337.928","Import Wh",,
+4,"0,000,020,450,261.160","Export Wh",,
+5,"0,000,006,480,644.304","Export Wh",,
+6,"0,000,008,836,406.904","Export Wh",,
+7,"0,000,000,000,000.000","No Source",,
+8,"0,000,000,000,000.000","No Source",,
+9,"0,000,000,000,000.000","No Source",,
+10,"0,000,000,000,000.000","No Source",,
+11,"0,000,000,000,000.000","No Source",,
+12,"0,000,000,000,000.000","No Source",,
+13,"0,000,000,000,000.000","No Source",,
+14,"0,000,000,000,000.000","No Source",,
+15,"0,000,000,000,000.000","No Source",,
+16,"0,000,000,000,000.000","No Source",,
+17,"0,000,000,000,000.000","No Source",,
+18,"0,000,000,000,000.000","No Source",,
+19,"0,000,000,000,000.000","No Source",,
+20,"0,000,000,000,000.000","No Source",,
+21,"0,000,000,000,000.000","No Source",,
+22,"0,000,000,000,000.000","No Source",,
+23,"0,000,000,000,000.000","No Source",,
+24,"0,000,000,000,000.000","No Source",,
+25,"0,000,000,000,000.000","No Source",,
+26,"0,000,000,000,000.000","No Source",,
+27,"0,000,000,000,000.000","No Source",,
+28,"0,000,000,000,000.000","No Source",,
+29,"0,000,000,000,000.000","No Source",,
+30,"0,000,000,000,000.000","No Source",,
+31,"0,000,000,000,000.000","No Source",,
+32,"0,000,000,000,000.000","No Source",,
+
+Maximum demands
+
+Register,Value,Unit,Time and date
+1a,"00,000,000,000.000","No Source","Not available",
+1b,"00,000,000,000.000","No Source","Not available",
+1c,"00,000,000,000.000","No Source","Not available",
+
+2a,"00,000,000,000.000","No Source","Not available",
+2b,"00,000,000,000.000","No Source","Not available",
+2c,"00,000,000,000.000","No Source","Not available",
+
+3a,"00,000,000,000.000","No Source","Not available",
+3b,"00,000,000,000.000","No Source","Not available",
+3c,"00,000,000,000.000","No Source","Not available",
+
+4a,"00,000,000,000.000","No Source","Not available",
+4b,"00,000,000,000.000","No Source","Not available",
+4c,"00,000,000,000.000","No Source","Not available",
+
+5a,"00,000,000,000.000","No Source","Not available",
+5b,"00,000,000,000.000","No Source","Not available",
+5c,"00,000,000,000.000","No Source","Not available",
+
+6a,"00,000,000,000.000","No Source","Not available",
+6b,"00,000,000,000.000","No Source","Not available",
+6c,"00,000,000,000.000","No Source","Not available",
+
+7a,"00,000,000,000.000","No Source","Not available",
+7b,"00,000,000,000.000","No Source","Not available",
+7c,"00,000,000,000.000","No Source","Not available",
+
+8a,"00,000,000,000.000","No Source","Not available",
+8b,"00,000,000,000.000","No Source","Not available",
+8c,"00,000,000,000.000","No Source","Not available",
+
+Co-incident demands
+
+Register,Value,Unit
+1a,"00,000,000,000.000","No Source",,
+1b,"00,000,000,000.000","No Source",,
+1c,"00,000,000,000.000","No Source",,
+
+2a,"00,000,000,000.000","No Source",,
+2b,"00,000,000,000.000","No Source",,
+2c,"00,000,000,000.000","No Source",,
+
+3a,"00,000,000,000.000","No Source",,
+3b,"00,000,000,000.000","No Source",,
+3c,"00,000,000,000.000","No Source",,
+
+4a,"00,000,000,000.000","No Source",,
+4b,"00,000,000,000.000","No Source",,
+4c,"00,000,000,000.000","No Source",,
+
+5a,"00,000,000,000.000","No Source",,
+5b,"00,000,000,000.000","No Source",,
+5c,"00,000,000,000.000","No Source",,
+
+Cumulative maximum demands
+
+Register,Value,Unit
+1,"0,000,000,000,890.848","Import W",,
+2,"0,000,000,000,704.096","Import W",,
+3,"0,000,000,000,608.096","Import W",,
+4,"0,000,000,000,640.096","Import W",,
+5,"0,000,000,095,706.928","Export W",,
+6,"0,000,000,068,256.000","Export W",,
+7,"0,000,000,065,662.752","Export W",,
+8,"0,000,000,064,800.000","Export W",,
+
+Billing event details
+
+Billing reset number:,29
+Time of billing reset:,9/15/2026 2:20 PM
+Billing period start date,3/1/2025
+Billing period end date,4/1/2025
+
+Billing reason
+,Automatic billing date
+,Power-up process
+
